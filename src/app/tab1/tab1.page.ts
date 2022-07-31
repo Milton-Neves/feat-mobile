@@ -9,9 +9,8 @@ import { ApiService } from './api.service';
 export class Tab1Page implements OnInit {
 
   pokemons!: any
-
   constructor(private service: ApiService) {
-    
+
   }
 
   ngOnInit() {
